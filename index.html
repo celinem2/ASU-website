@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>African Student Union</title>
+  <link href="https://fonts.googleapis.com/css2?family=Gagalin&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <a href="#intro"><img src="shark.png" alt="Shark Logo" class="shark-logo" /></a>
+  <div class="nav-wrapper">
+  <ul class="navbar-links">
+    <li><a href="#intro">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#values">Values</a></li>
+    <li><a href="#events">Events</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#join">Join Us</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Intro Section -->
+<section class="page-section active" id="intro">
+  <h2>Welcome to</h2>
+  <h1>AFRICAN STUDENT UNION</h1>
+  <img src="africa.png" alt="Africa Continent" style="max-width: 200px; margin-top: 10px;" />
+</section>
+
+<!-- About Section -->
+<section class="page-section" id="about">
+  <div class="flex-row">
+    <div class="flex-col">
+      <h2>About Us</h2>
+      <p>The LIU African Student Union (ASU) is a community dedicated to celebrating African culture, heritage, and unity on campus. We provide a welcoming space for students to connect, share experiences, and engage in meaningful discussions. Whether you're looking to celebrate your roots, learn about African culture, or make new friends, ASU is the place for you!</p>
+      
+      <!-- Three small images under the paragraph -->
+      <div class="about-small-images">
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3">
+      </div>
+    </div>
+
+    <div class="flex-col">
+      <img src="africa.png" alt="Africa Continent" />
+    </div>
+  </div>
+</section>
+
+
+<!-- Values Section -->
+<section class="page-section" id="values">
+  <div class="flex-row">
+    <div class="flex-col">
+      <h2>Our Values</h2>
+      <div class="value-item"><img src="love.png" alt="Love Icon" /><span>LOVE</span></div>
+      <div class="value-item"><img src="together.png" alt="Together Icon" /><span>WORKING TOGETHER</span></div>
+      <div class="value-item"><img src="equality.png" alt="Equality Icon" /><span>EQUALITY</span></div>
+    </div>
+    <div class="flex-col">
+      <img src="africa.png" alt="Africa Continent" />
+    </div>
+  </div>
+</section>
+
+<!-- Events Dropdown Section -->
+<section class="page-section" id="events">
+  <h2>Events</h2>
+  <p>Explore our upcoming cultural nights, panels, and social events!</p>
+  <div class="dropdown-container">
+    <div class="dropdown">
+      <div class="dropbtn square events-bg">
+        <span class="overlay-text highlight-text">Events</span>
+      </div>
+      <div class="dropdown-content">
+        <a href="http://calendar.liu.edu/cal/main/showEventList.rdo" target="_blank">General Events</a>
+        <a href="http://calendar.liu.edu/cal/main/showEventList.rdo" target="_blank">Upcoming Events</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <div class="square dropbtn" style="background-image: url('services.jpg');"><span class="overlay-text highlight-text">Services</span></div>
+      <div class="dropdown-content">
+        <a href="http://liucares.org/" target="_blank">Community Services</a>
+        <a href="https://www.liu.edu/~/link.aspx?_id=AA9D3D5C6F4E466D965669792C6CA953" target="_blank">Academic Help</a>
+        <a href="https://www.liu.edu/career-success" target="_blank">Career Support</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <div class="square dropbtn" style="background-image: url('news.jpg');"><span class="overlay-text highlight-text">News</span></div>
+      <div class="dropdown-content">
+        <a href="https://headlines.liu.edu/?cat=18" target="_blank">Brooklyn Campus News</a>
+        <a href="https://headlines.liu.edu/" target="_blank">General Newsletter</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team Section -->
+<section class="page-section" id="team">
+  <h2>Our Team</h2>
+  <div class="team-grid">
+    <div class="member"><img src="member1.jpeg" alt="Member 1"><p>Victoria Martins<br>President</p></div>
+    <div class="member"><img src="member2.jpeg" alt="Member 2"><p>Samantha Boothe<br>Vice President</p></div>
+    <div class="member"><img src="member3.jpg" alt="Member 3"><p>Celine Mukura<br>Secretary</p></div>
+    <div class="member"><img src="member4.jpeg" alt="Member 4"><p>Noneye Chinonye<br>Treasurer</p></div>
+    <div class="member"><img src="member5.jpeg" alt="Member 5"><p>Kiyesi Abiodun<br>Social Media Manager</p></div>
+    <div class="member"><img src="member6.jpeg" alt="Member 6"><p>Adrienne Amoah<br>Committee Chair</p></div>
+  </div>
+</section>
+
+<!-- Join Us -->
+<section class="page-section" id="join">
+  <h2>Join Us</h2>
+  <p>Get involved and make a difference on campus!</p>
+  <form class="join-form" action="https://formsubmit.co/celinemukura5@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Message (Optional)" rows="4"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- Contact -->
+<section class="page-section" id="contact">
+  <h2>Contact Us</h2>
+  <p>Follow us on social media or email us with questions!</p>
+  <div class="social-links">
+    <a href="https://www.instagram.com/liubrooklyn_asu" target="_blank"><img src="instagram.png" alt="Instagram" /></a>
+    <a href="mailto:celinemukura@gmail.com"><img src="gmail.png" alt="Gmail" /></a>
+    <a href="https://facebook.com" target="_blank"><img src="facebook.png" alt="Facebook" /></a>
+    <a href="https://twitter.com" target="_blank"><img src="twitter.png" alt="Twitter" /></a>
+  </div>
+  <!-- Feedback Link -->
+<div class="feedback-trigger">
+  <a href="#" id="openFeedback">Give us feedback</a>
+</div>
+
+<!-- Feedback Modal -->
+<div id="feedbackModal" class="feedback-modal">
+  <div class="feedback-content">
+    <span id="closeFeedback" class="close-btn">&times;</span>
+    <h3>Rate Your Experience</h3>
+
+    <form action="https://formsubmit.co/celinemukura5@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New ASU Website Feedback">
+      <input type="hidden" name="_template" value="table">
+
+      <label for="rating">Rating (1–5):</label><br>
+      <input type="number" id="rating" name="Rating" min="1" max="5" required><br><br>
+
+      <label for="comments">Your Comments:</label><br>
+      <textarea id="comments" name="Comments" rows="4" placeholder="Write your thoughts..."></textarea><br><br>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </div>
+</div>
+
+
+</section>
+
+<script>
+  const sections = document.querySelectorAll('.page-section');
+  const sectionIds = Array.from(sections).map(sec => sec.id);
+  let current = 0;
+  let lastScroll = 0;
+
+  // Function to activate a section by index
+  function showSection(index) {
+    sections.forEach((section, i) => {
+      section.classList.toggle('active', i === index);
+    });
+    current = index;
+  }
+
+  // Scroll with mouse wheel
+  window.addEventListener('wheel', (e) => {
+    if (Date.now() - lastScroll > 1200) {
+      if (e.deltaY > 0 && current < sections.length - 1) {
+        current++;
+      } else if (e.deltaY < 0 && current > 0) {
+        current--;
+      }
+      showSection(current);
+      lastScroll = Date.now();
+    }
+  });
+
+  // Enable navbar clicks to jump to correct section
+  document.querySelectorAll('.navbar a[href^="#"]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetId = link.getAttribute('href').substring(1);
+      const index = sectionIds.indexOf(targetId);
+      if (index !== -1) {
+        showSection(index);
+      }
+    });
+  });
+
+  // Initially show the first section
+  showSection(current);
+</script>
+<script>
+  const feedbackModal = document.getElementById("feedbackModal");
+  const openBtn = document.getElementById("openFeedback");
+  const closeBtn = document.getElementById("closeFeedback");
+  const form = document.getElementById("feedbackForm");
+
+  openBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    feedbackModal.style.display = "block";
+  });
+
+  closeBtn.addEventListener("click", function () {
+    feedbackModal.style.display = "none";
+  });
+
+  window.addEventListener("click", function (e) {
+    if (e.target === feedbackModal) {
+      feedbackModal.style.display = "none";
+    }
+  });
+
+</script>
+</body>
