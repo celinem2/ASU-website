@@ -27,8 +27,8 @@ This is the official website for the African Student Union, built to showcase ev
 
 ## 📸 Screenshots
 
-![ASU Homepage](screenshot-homepage.png)
-![ASU Events Section](screenshot-events.png)
+![ASU Homepage](screenshot-homepage.jpeg)
+![ASU Events Section](screenshot-events.jpeg)
 
 
 
