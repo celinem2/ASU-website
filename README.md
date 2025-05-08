@@ -2,7 +2,7 @@
 
 This is the official website for the African Student Union, built to showcase events, services, news, and our amazing team. The site highlights our mission, values, and provides a space for members and visitors to connect.
 
-🌐 "Live Site:" [Visit ASU Website]([https://celinem2.github.io/ASU-website/])
+🌐 "Live Site:" ([https://celinem2.github.io/ASU-website/])
 
 ---
 
