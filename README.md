@@ -30,14 +30,14 @@ This is the official website for the African Student Union, built to showcase ev
 ![ASU Homepage](screenshot-homepage.png)
 ![ASU Events Section](screenshot-events.png)
 
-*(Add your screenshots as image files in the repo and update the links above.)*
+
 
 ---
 
 ## 🚀 Setup
 
 1. Clone the repo:  
-   `git clone https://github.com/yourusername/asu-website.git`
+   `git clone https://github.com/celinemukra2/asu-website.git`
 
 2. Open `index.html` in your browser.
 
